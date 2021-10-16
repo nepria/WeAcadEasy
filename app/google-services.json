@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1083697807993",
+    "project_id": "acadeasy-31515",
+    "storage_bucket": "acadeasy-31515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083697807993:android:7c55e4cb67c9e805e74aa8",
+        "android_client_info": {
+          "package_name": "com.example.weacadeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083697807993-mdrabbtfomj3u010jtbr79n0ch37sjlf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weacadeasy",
+            "certificate_hash": "8c45aafc623885c68cff5f178e72ed9ccc12186e"
+          }
+        },
+        {
+          "client_id": "1083697807993-5crahiiudrapojein5hdscjhvrcsvo10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvox5dbcir4-2DCxA0yUb6uGXkBn9dZAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083697807993-5crahiiudrapojein5hdscjhvrcsvo10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

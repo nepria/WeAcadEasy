@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.example.weacadeasy.loginactivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back!"
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15mm"
+        android:layout_marginStart="-29dp"
+        android:fontFamily="@font/nunitobold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your credentials to continue."
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#A8A3A3"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="9dp"
+        android:fontFamily="@font/nunitobold"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="51mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="#A8A3A3"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:layout_marginTop="71dp"
+        android:background="@color/white"
+        android:hint="Email"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunitobold"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="51mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="#A8A3A3"
+        app:startIconDrawable="@android:drawable/ic_lock_idle_lock"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        app:passwordToggleEnabled="true"
+        android:hint="Password"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:fontFamily="@font/nunitobold"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginTop="57dp"
+        android:textAllCaps="false"
+        android:background="@drawable/signupbtn"
+        android:textSize="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Login"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? "
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textColor="#A8A3A3"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="49dp"
+            android:fontFamily="@font/nunitobold"/>
+        <TextView
+            android:id="@+id/signuptxt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sign up"
+            android:textSize="17dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunitobold"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

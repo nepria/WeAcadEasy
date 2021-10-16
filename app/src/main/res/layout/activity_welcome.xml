@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.weacadeasy.welcome">
+
+    <ImageView
+        android:layout_width="184dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="12mm"
+        android:src="@drawable/logowel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_gravity="center"
+        android:text="Welcome!"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/white"
+        android:textSize="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:text="Get instant summary"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:fontFamily="@font/nunitosemibold"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:text="and learning assistant right on"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:fontFamily="@font/nunitosemibold"
+ />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:text="your mobile screen."
+        android:fontFamily="@font/nunitosemibold"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+     />
+
+    <Button
+        android:id="@+id/clickmain"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="75dp"
+        android:textAllCaps="false"
+        android:background="@drawable/welcomebtn"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="Get Started"/>
+
+
+</LinearLayout>
