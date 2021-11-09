@@ -28,9 +28,9 @@ class MainActivity : AppCompatActivity() {
         val username = sharedPreferences.getString(Constants.LOGGED_IN_USERNAME, "")!!
         val email1 = sharedPreferences.getString(Constants.LOGGED_IN_EMAIL, "")!!
         val number = sharedPreferences.getString(Constants.LOGGED_IN_NUM, "")!!
-        uid.text = "User name:: $username"
-        email.text = "Email id :: $email1"
-        phonenum.text = "Phone number :: $number"
+        uid.text = "User name - $username"
+        email.text = "Email id - $email1"
+        phonenum.text = "Phone number - $number"
 
 
     }

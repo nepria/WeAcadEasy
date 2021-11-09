@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
 import com.example.acadeasy.R
+import com.example.weacadeasy.models.picenter
 import com.google.firebase.auth.FirebaseAuth
 
 class firstsplash : AppCompatActivity() {
@@ -21,7 +22,7 @@ class firstsplash : AppCompatActivity() {
             if (mAuth!!.currentUser == null)
                 startActivity(Intent(this, welcome::class.java))
             else
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, picenter::class.java))
             finish()
         }, time)
     }

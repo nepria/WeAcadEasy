@@ -6,7 +6,7 @@
         android:font="@font/opensans" />
     <font
         android:fontStyle="normal"
-        android:fontWeight="500"
+        android:fontWeight="700"
         android:font="@font/nunitobold" />
     <font
         android:fontStyle="normal"
@@ -16,4 +16,8 @@
         android:fontStyle="normal"
         android:fontWeight="500"
         android:font="@font/roboto" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="5"
+        android:font="@font/mukta" />
 </font-family>

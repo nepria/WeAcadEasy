@@ -59,6 +59,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        mlModelBinding true
     }
 }
 
@@ -75,7 +76,14 @@ android {
         implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
         implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
         implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+        implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
+        implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
         testImplementation 'junit:junit:4.13.2'
         androidTestImplementation 'androidx.test.ext:junit:1.1.3'
         androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+        implementation 'org.tensorflow:tensorflow-lite-task-vision:0.1.0'
+        implementation 'org.tensorflow:tensorflow-lite-task-text:0.1.0'
+        implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT'
+        implementation 'org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly-SNAPSHOT'
+        implementation 'org.tensorflow:tensorflow-lite-support:0.0.0-nightly-SNAPSHOT'
     }

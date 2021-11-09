@@ -14,23 +14,33 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="441dp"
         android:layout_gravity="center"
-        android:text="Welcome!"
+        android:text="Find your dog"
         android:fontFamily="@font/nunitobold"
-        android:textColor="@color/white"
-        android:textSize="48dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"
+        android:text="Breed"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:text="Get instant summary"
-        android:textColor="@color/white"
-        android:textSize="23sp"
-        android:fontFamily="@font/nunitosemibold"
+        android:text="and know how to take care of"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/mukta"
          />
 
     <TextView
@@ -38,35 +48,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:layout_gravity="center"
-        android:text="and learning assistant right on"
-        android:textColor="@color/white"
-        android:textSize="23sp"
-        android:fontFamily="@font/nunitosemibold"
+        android:text="them with Leo"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/mukta"
  />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:layout_gravity="center"
-        android:text="your mobile screen."
-        android:fontFamily="@font/nunitosemibold"
-        android:textColor="@color/white"
-        android:textSize="23sp"
-     />
+
 
     <Button
         android:id="@+id/clickmain"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_marginStart="23dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginTop="75dp"
-        android:textAllCaps="false"
-        android:background="@drawable/welcomebtn"
-        android:textSize="16dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/welbtn"
         android:fontFamily="@font/roboto"
-        android:text="Get Started"/>
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
 
 
 </LinearLayout>

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.acadeasy.R
+import com.example.weacadeasy.models.picenter
 import com.google.firebase.auth.FirebaseAuth
 
 import kotlinx.android.synthetic.main.activity_welcome.*
@@ -18,7 +19,7 @@ class welcome : AppCompatActivity() {
             if (mAuth!!.currentUser == null)
                 startActivity(Intent(this, loginactivity::class.java))
             else
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, picenter::class.java))
 
         }
     }

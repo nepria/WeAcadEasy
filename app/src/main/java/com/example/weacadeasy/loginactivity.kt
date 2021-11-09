@@ -9,6 +9,7 @@ import android.widget.Toast
 import com.example.acadeasy.R
 import com.example.weacadeasy.firestore.Firestoreclass
 import com.example.weacadeasy.models.User
+import com.example.weacadeasy.models.picenter
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_createacc.*
@@ -86,7 +87,7 @@ class loginactivity : AppCompatActivity() {
     }
     fun userLoggedInSuccess(user: User) {
         val intent =
-            Intent(this, MainActivity::class.java)
+            Intent(this, picenter::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         intent.putExtra(Constants.EXTRA_USER_DETAILS, user)
         startActivity(intent)

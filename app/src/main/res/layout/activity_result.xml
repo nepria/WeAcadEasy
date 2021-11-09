@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result"
+    android:orientation="vertical"
+    tools:context="com.example.weacadeasy.result">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:text="Hey your results"
+        android:fontFamily="@font/nunitosemibold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:text="are out!"
+        android:fontFamily="@font/nunitosemibold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="158dp"
+            android:text="it is a"
+            android:fontFamily="@font/nunitosemibold"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            />
+
+        <TextView
+            android:id="@+id/resultname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:text=""
+            android:fontFamily="@font/nunitosemibold"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/get_info"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Get info ->"
+        android:textSize="15dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/welbtn"
+        android:layout_marginStart="189dp"
+        android:layout_marginEnd="44dp"/>
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:text="profile"
+        android:layout_marginTop="22dp"
+        />
+
+
+
+</LinearLayout>

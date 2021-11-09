@@ -11,6 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
+            android:name="com.example.weacadeasy.german"
+            android:exported="true" />
+        <activity
+            android:name="com.example.weacadeasy.result"
+            android:exported="true" />
+        <activity
+            android:name="com.example.weacadeasy.models.picenter"
+            android:exported="true" />
+        <activity
             android:name="com.example.weacadeasy.loginactivity"
             android:exported="true" />
         <activity
